@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+rope = "*"
+pylama = "*"
+pep8 = "*"
+
+[packages]
+django = "==2.2.20"
+gunicorn = "==19.9.0"
+whitenoise = "==3.3.1"
+celery = "==4.4.1"
+redis = "*"
+jupyter = "*"
+pandas = "*"
+plotly = "*"
+chart-studio = "*"
+pylama = "*"
+psutil = "*"
+pip = "*"
+future = "*"
+django-crispy-forms = "*"
+
+[requires]
+python_version = "3.7"
